@@ -9,4 +9,4 @@ Repositório de exercícios propostos no Digital Innovation One. https://digital
 --> Definir variaveis pra identidade visual
 
 --> role pra sempre renderizar como button
--->
+--> sempre levar em conta que os elementos em CSS ja vem com valores padrões setados.
