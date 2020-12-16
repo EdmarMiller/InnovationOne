@@ -7,8 +7,8 @@ function fn() {
   }
 }
 
-// Aqui há o hosting da função, veja qye ela retorna o valor antes mesmo da variavel ser declarada.
-
+// Aqui há o hosting da função, veja que ela retorna o valor antes mesmo da variavel ser declarada.
+// aqui iça toda a função como um todo, diferente das variaveis
 fn();
 
 
