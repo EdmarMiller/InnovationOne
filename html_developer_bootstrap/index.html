@@ -1,15 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-bt">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css"  href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css"  href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="x.css">
 
   <title>Minha página</title>
 </head>
+
 <body>
- <!-- Continuar de 8 minutos do video 2-->
+  <!-- Continuar de 8 minutos do video 2-->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">Navbar com texto</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
+      aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="textoNavbar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#quem-somos">Quem Somos <span class="sr-only">(Página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#parceiros">parceiros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#servicos">Serviços</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section class="container  text-center quem-somos margin">
+    <h3>Quem somos</h3>
+    <img src="img/imagens-surreais.jpg" class="rounded-circle" width="400px" height="400px" alt="">
+    <h3>Somos um time comprometido com o cliente!</h3>
+  </section>
   
+  <section id="parceiros">
+    <div class="container-fluid text-center margin parceiros">
+      <h3>Parceiros</h3>
+      <div class="cotainer">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="./img/logo.png" width="100%" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="./img/logo.png" width="100%" alt="">
+          </div>
+          <div class="col-md-4">
+            <img src="./img/logo.png" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="servicos">
+    <div class="container-fluir text-center margin servicos">
+      <h3>Serviços</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab asperiores accusamus at dignissimos molestiae officia numquam. Ipsam veritatis tempora id corrupti? Tempora in placeat dicta dolore eos ab accusantium asperiores?</p>
+            <img src="./img/logo.png" width="100%" alt="">
+          </div>
+          <div class="col-md-6">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab asperiores accusamus at dignissimos molestiae officia numquam. Ipsam veritatis tempora id corrupti? Tempora in placeat dicta dolore eos ab accusantium asperiores?</p>
+            <img src="./img/logo.png" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer>
+    <p class=" container-fluid bg-footer text-center margin">Desenvolvido por Edmar Miller</p>
+  </footer>
 </body>
+
 </html>
+
+
